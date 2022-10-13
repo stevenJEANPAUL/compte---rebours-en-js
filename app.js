@@ -24,7 +24,7 @@ let nowDate = Date.now();
 
 let tempsRestantEnMs = newYear - nowDate + (dateOffsetInMinutes * uneMinuteEnMs);
 
-console.log(tempsRestantEnMs);
+
 
 // jours
 let nbJours = Math.floor(tempsRestantEnMs / unJourEnMs);
@@ -48,7 +48,7 @@ heuresEl.textContent = nbHeures;
 minutesEl.textContent = nbMinutes;
 secondesEl.textContent = nbSecondes;
 
-if (tempsRestantEnMs <= 0) {
+if (tempsRestantEnMs = 0) {
     clearInterval(countDownInterval);
     bodyEl.style.backgroundImage = 'url(./yes.jpg)';
     joursEl.textContent = 0;
